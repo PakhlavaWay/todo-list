@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/style.css">
+  <title>Document</title>
+  
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <h1 class="header__title">
+        ToDo List
+      </h1>
+    </header>
+    <main class="main">
+      <section class="main__items">
+        <div class="main__new">
+          <div class="main__new-reminder">
+            <img src="./images/plus.png" alt="plus">
+            <p> New Reminder </p>
+          </div>
+          
+          <div class="main__new-info">
+            <div class="main__task-info">
+              <Label for=""> Task </Label> 
+              <input type="text" placeholder="Add Task" class="main__task-input">
+            </div>
+            
+            <div class="main__task-info">
+              <label for=""> Day & Time </label>
+              <input type="text" placeholder="Add Date" class="main__date-input">
+            </div>
+            
+            <button class="btn">Save Task</button>
+          </div>
+        </div>
+        
+      </section>
+    </main>
+  </div>
+  
+  <script async src="./scripts/script.js"></script>
+</body>
+</html>
